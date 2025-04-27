@@ -1,4 +1,6 @@
-import { configureGenkit } from 'genkit';
+'use server';
+
+import { configureGenkit } from 'genkit'; // Reverted import to match package.json
 import { googleAI } from '@genkit-ai/googleai'; // Using Google AI as a placeholder
 
 export const ai = configureGenkit({
